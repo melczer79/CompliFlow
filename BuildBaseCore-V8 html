@@ -9,7 +9,7 @@
 
 <body>
   <header>
-    <img scr="logo.png" alt="BuildBaseCore" style="height:60px;">
+    <img src="logo.png" alt="BuildBaseCore" style="height:60px;">
     <p class="subtitle">
       Digitale Übersicht für Prüf-, Wartungs- und Nachweispflichten
       in psychosozialen und gemeinnützigen Einrichtungen.
