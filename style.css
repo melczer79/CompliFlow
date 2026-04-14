@@ -7,10 +7,11 @@ body {
 }
 
 header {
-  background: #0a2a43;
+  background: linear-gradient(135deg, #1e4a7a, #0a2a43);
   color: #ffffff;
   padding: 3rem 1.5rem;
   text-align: center;
+}
 }
 
 header h1 {
