@@ -11,7 +11,7 @@
 
 <header class="hero">
   <div class="container">
-    <img src="logo.png" alt="BuildBaseCore Logo" class="logo">
+    <img src="logo.pg" alt="BuildBaseCore Logo" class="logo">
 
     <h1>Digitale Wartungs- & Prüfungsübersicht</h1>
     <p class="subtitle">
