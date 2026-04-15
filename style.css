@@ -10,12 +10,15 @@ body {
   margin: auto;
   padding: 2rem;
 }
-
 .hero {
-  background: linear-gradient(135deg, #0a2a43, #1f4f75);
+  background: linear-gradient(135deg, #0a2a43 0%, #1f5f9b 100%);
   color: white;
+  padding: 120px 20px;
   text-align: center;
-  padding: 4rem 1rem;
+  position: relative;
+  overflow: hidden;
+}
+
 }
 .logo {
   height: 70px;
