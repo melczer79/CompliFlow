@@ -19,8 +19,12 @@ body {
 }
 
 .logo {
-  height: 70px;
-  margin-bottom: 1.5rem;
+  height: 80px;
+  margin-bottom: 20px;
+  background: white;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
 }
 
 h1 {
