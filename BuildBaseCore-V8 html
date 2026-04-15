@@ -1,112 +1,86 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-  <meta charset="UTF-8" />
-  <title>BuildBaseCore – Digitale Prüf- & Wartungsübersicht</title>
+  <meta charset="UTF-8">
+  <title>BuildBaseCore – Digitale Wartungsübersicht</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <header>
-    <img src="logo.png" alt="BuildBaseCore" style="height:60px;">
+
+<header class="hero">
+  <div class="container">
+    <img src="image.png1.png" alt="BuildBaseCore Logo" class="logo">
+
+    <h1>Digitale Wartungs- & Prüfungsübersicht</h1>
     <p class="subtitle">
-      Digitale Übersicht für Prüf-, Wartungs- und Nachweispflichten
-      in psychosozialen und gemeinnützigen Einrichtungen.
+      Für Gemeinden, soziale Träger und Organisationen mit mehreren Gebäuden.
     </p>
-  </header>
 
-  <main>
+    <div class="cta">
+      <a href="#" class="btn primary">Demo anfragen</a>
+      <a href="#" class="btn secondary">Mehr erfahren</a>
+    </div>
+  </div>
+</header>
 
-    <section>
-      <h2>Worum geht es?</h2>
-      <p>
-        BuildBaseCore unterstützt Einrichtungen dabei,
-        prüf- und wartungsrelevante Pflichten pro Gebäude
-        einfach, nachvollziehbar und revisionsnah zu überblicken.
-      </p>
-    </section>
+<section class="section">
+  <div class="container">
+    <h2>Warum BuildBaseCore?</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Klare Übersicht</h3>
+        <p>Alle Wartungen und Prüfungen pro Gebäude zentral verwalten.</p>
+      </div>
 
-    <section>
-      <h2>Für wen?</h2>
-      <ul>
-        <li>Psychosoziale Einrichtungen (PSZ)</li>
-        <li>Gemeinnützige Träger mit mehreren Standorten</li>
-        <li>Schulen & Betreuungseinrichtungen (perspektivisch)</li>
-      </ul>
-    </section>
+      <div class="card">
+        <h3>Fristen im Blick</h3>
+        <p>Automatische Statusanzeige: OK, bald fällig oder überfällig.</p>
+      </div>
 
-    <section>
-      <h2>Was BuildBaseCore bewusst <em>nicht</em> ist</h2>
-      <ul>
-        <li>❌ Kein Dokumentenmanagementsystem (DMS)</li>
-        <li>❌ Keine Verwaltungs- oder Personalsoftware</li>
-        <li>❌ Keine Archivierungsplattform</li>
-      </ul>
-      <p class="hint">
-        Fokus statt Komplexität – als Ergänzung bestehender Systeme.
-      </p>
-    </section>
+      <div class="card">
+        <h3>Wartungsfirmen integriert</h3>
+        <p>Externe Firmen arbeiten direkt im System – kein E-Mail Chaos.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <section>
-      <h2>Warum jetzt?</h2>
-      <p>
-        Viele Einrichtungen arbeiten heute mit Excel, Ordnern
-        oder Erfahrungswissen. Gleichzeitig steigen Anforderungen
-        durch Prüfungen, Förderstellen und Haftungsfragen.
-      </p>
-      <p>
-        Aktuell führen wir kurze Gespräche zur Praxisanalyse
-        und vergeben erste Pilotzugänge.
-      </p>
-    </section>
+<section class="section light">
+  <div class="container">
+    <h2>Für wen?</h2>
+    <ul class="list">
+      <li>Gemeinden (Verwaltung, Schulen, Bauhöfe)</li>
+      <li>Soziale Träger (PSZ, Caritas, etc.)</li>
+      <li>Organisationen mit mehreren Gebäuden</li>
+    </ul>
+  </div>
+</section>
 
-    <section class="contact">
-      <h2>Kontakt</h2>
-      <p>
-        E-Mail:
-        <a href="mailto:kontakt@buildbasecore.at">
-          kontakt@buildbasecore.at
-        </a>
-      </p>
-    </section>
+<section class="section">
+  <div class="container">
+    <h2>Warum jetzt?</h2>
+    <p class="text">
+      Dokumentationspflichten, Förderstellen und Haftungsfragen erfordern klare und nachvollziehbare Strukturen.
+      Viele arbeiten noch mit Excel oder Papier – BuildBaseCore bringt Ordnung.
+    </p>
+  </div>
+</section>
 
-    <hr>
+<section class="section highlight">
+  <div class="container center">
+    <h2>Einfach starten</h2>
+    <p>Kein komplexes CAFM – sondern genau das, was wirklich gebraucht wird.</p>
+    <a href="#" class="btn primary large">Jetzt Pilot starten</a>
+  </div>
+</section>
 
-    <section>
-      <h2>Impressum</h2>
-      <p>
-        BuildBaseCore<br>
-        Szilard Melczer<br>
-        Johannes-Brahms-Gasse 4<br>
-        2000 Stockerau<br>
-        Österreich
-      </p>
-      <p>
-        E-Mail: kontakt@buildbasecore.at
-      </p>
-    </section>
-
-    <section>
-      <h2>AGB (Kurzfassung)</h2>
-      <p>
-        BuildBaseCore stellt eine digitale Übersichtslösung zur
-        organisatorischen Unterstützung bereit.
-        Die Verantwortung für Inhalte, Prüfungen,
-        Fristen und rechtliche Verpflichtungen
-        verbleibt vollständig bei der jeweiligen Einrichtung.
-      </p>
-      <p>
-        Es erfolgt keine rechtsverbindliche Archivierung
-        und keine Haftungsübernahme.
-        Details werden vor Nutzung individuell vereinbart.
-      </p>
-    </section>
-
-  </main>
-
-  <footer>
+<footer>
+  <div class="container">
     <p>© 2026 BuildBaseCore</p>
-  </footer>
+  </div>
+</footer>
+
 </body>
 </html>
