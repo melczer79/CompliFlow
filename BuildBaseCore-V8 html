@@ -74,13 +74,14 @@
     <p>Kein komplexes CAFM – sondern genau das, was wirklich gebraucht wird.</p>
     <a href="#" class="btn primary large">Jetzt Pilot starten</a>
   </div>
-</section>
-
 <footer>
   <div class="container">
     <p>© 2026 BuildBaseCore</p>
+
+    <div class="footer-links">
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="agb.html">AGB</a>
+    </div>
   </div>
 </footer>
-
-</body>
-</html>
