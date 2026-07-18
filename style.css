@@ -38,6 +38,11 @@ body {
   opacity: 0.08;
 }
 
+.hero-home-link {
+  text-decoration: none;
+  color: inherit;  
+}
+
 /* SZÖVEG ELŐTÉR */
 .hero .container {
   position: relative;
@@ -149,6 +154,41 @@ footer a:hover {
     height: 400px;
   }
 }
+
+/* CONTACT FORM */
+.contact-form {
+  display: grid;
+  gap: 1rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contact-form label {
+  font-weight: 600;
+  color: #0a2a43;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font: inherit;
+  box-sizing: border-box;
+}
+
+.contact-form textarea {
+  min-height: 160px;
+  resize: vertical;
+}
+
+.contact-form .btn {
+  border: none;
+  cursor: pointer;
+  width: fit-content;
+}
+
 /* HERO GRID */
 .hero-grid {
   display: grid;
@@ -207,3 +247,5 @@ footer a:hover {
     height: 250px;
   }
 }
+
+/* magyarblint */
